@@ -44,8 +44,8 @@
           $("body").append( "<img id='" + i + "' src='" + subdomain + "/content/" + images[i] +"'>" );
 
           var img = document.getElementById(i);
-          var width = $("img").width(); //naturalWidth
-          var height = $("img").height(); //naturalHeight
+          var width = img.naturalWidth;
+          var height = img.naturalHeight;
           console.log("Image #" + i + ": [width: " + width + ", height: " + height + "]");
           if (width > height) {
             img.classList.add('landscape');
