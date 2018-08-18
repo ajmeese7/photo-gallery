@@ -16,5 +16,5 @@ local dependency to the online script to try to fix this, as Masonry loading in 
 may be the problem.
 
 ### Plans
-- Want to delete jQuery and possible Masonry from dependencies
+- Possibly remove Masonry from dependencies
 - Add settings/options for different sizes and display styles
